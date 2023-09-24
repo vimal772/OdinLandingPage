@@ -92,6 +92,7 @@ main h1{
 .child{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 .middle-img{
@@ -128,4 +129,47 @@ blockquote{
     text-align: right;
     font-weight: 600;
     color: #1f2937;
+}
+.blank{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 1400px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .buy{
+    display: flex;
+    align-items: center;
+} */
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    text-align: left;
+}   
+.item h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.item p{
+    font-weight:600;
+}
+.ctn{
+    padding: 10px 60px;
+    background-color: #3882f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 2px;
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: 600;
 }
