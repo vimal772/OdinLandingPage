@@ -106,3 +106,26 @@ main h1{
     flex-direction: column;
     width: 300px;
 }
+blockquote{
+    background: #e5e7eb;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote-text{
+    font-weight: 500;
+    font-size: 46px;
+}
+.quote{
+    border: 2px solid white;
+    border-left: 15px solid white;
+    padding: 60px;
+}
+.quote-author{
+    font-size: 24px;
+    text-align: right;
+    font-weight: 600;
+    color: #1f2937;
+}
