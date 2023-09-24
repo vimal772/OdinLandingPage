@@ -81,3 +81,28 @@ section{
     font-weight: bold;
     margin-bottom: 10px;
 }
+main{
+    margin: 100px 12px;
+}
+main h1{
+    margin-bottom: 70px;
+    font-size: 2.5rem;
+    color: #1f2937;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.middle-img{
+    border-radius: 12px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.card{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 300px;
+}
