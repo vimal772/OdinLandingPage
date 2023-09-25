@@ -173,3 +173,25 @@ blockquote{
     font-size: 24px;
     font-weight: 600;
 }
+footer{
+    background: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    list-style: none;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bottom li a{
+    color: #e5e7eb;
+    font-weight: 600;
+}
+footer h5{
+    margin: 10px 30px;
+}
