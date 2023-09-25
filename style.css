@@ -13,6 +13,7 @@ body{
     text-align: center;
 }
 header{
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +24,7 @@ header{
     height: 50px;
     width: 150px;
     flex-shrink: 0;
+    border-radius: 30px;
 }
 ul{
     list-style: none;
@@ -39,6 +41,12 @@ a{
     color: #e5e7eb;
 }
 
+.nav-menu li a:hover,
+.nav-menu li a:focus {
+    cursor: pointer;
+    font-weight: 600;
+}
+
 section{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -53,6 +61,11 @@ section{
     height: auto;
     border-radius: 20px;
     filter: brightness(70%);
+}
+.main-img:hover,
+.main-img:focus {
+    transform: scale(1.1);
+    filter: brightness(90%);
 }
 .main-top{
     color: #e5e7eb;
@@ -75,9 +88,15 @@ section{
     padding: 10px 20px;
     margin: 15px 0px;
 }
+.btn button:hover,
+.btn button:focus {
+    opacity: 0.8;
+    border-radius: 6px;
+    font-weight: 900;
+}
 
 .main-top h1{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -100,6 +119,10 @@ main h1{
     width: 300px;
     height: 200px;
     object-fit: cover;
+}
+.middle-img:hover,
+.middle-img:focus {
+    border: 3px solid #3882f6 ;
 }
 .card{
     display: flex;
@@ -173,6 +196,11 @@ blockquote{
     font-size: 24px;
     font-weight: 600;
 }
+.ctn:hover,
+.ctn:focus {
+    padding: 10px 80px;
+    border-radius: 2px;
+}
 footer{
     background: #1f2937;
     color: #e5e7eb;
@@ -186,10 +214,15 @@ footer ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 .bottom li a{
     color: #e5e7eb;
+}
+.bottom li a:hover,
+.bottom li a:focus{
+    cursor: pointer;
+    text-decoration: underline;
     font-weight: 600;
 }
 footer h5{
